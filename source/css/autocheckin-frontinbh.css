@@ -1,0 +1,20 @@
+body.user-standby, body.admin header{
+  padding-top: 100px;
+  background-color: #666363;
+  background: url(../img/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#logo{
+  background: url(../img/logo.png) 150px 40px;
+	width:150px;
+	height:40px;
+	margin: 50px auto 0;
+}
+
+.user-standby h1, .user-standby h2, .user-standby h3{
+	color: white;
+}

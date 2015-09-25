@@ -1,0 +1,25 @@
+<!doctype html>
+<html class="no-js" ng-app="selfCheckin">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="author" content="Cirdes Henrique">
+        <!-- Use title if it's in the page YAML frontmatter -->
+        <title>Self-checkin - Eventick</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+
+        <%= stylesheet_link_tag "all" %>
+    </head>
+    <body ng-controller='MainCtrl' ng-class="bodyClass">
+        <!--[if lt IE 8]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <%= yield %>
+
+        <%= javascript_include_tag  "all" %>
+    </body>
+</html>
